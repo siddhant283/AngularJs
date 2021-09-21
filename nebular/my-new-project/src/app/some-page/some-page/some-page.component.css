@@ -1,0 +1,14 @@
+.colored-column-warning{
+    background-color: #FF6B6B;
+    height: 100%;
+}
+
+.colored-column-info{
+    background-color: #FCDEC0;
+    height: 100%;
+}
+
+.colored-column-success{
+    background-color: #C2F784;
+    height: 100%;
+}

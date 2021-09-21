@@ -1,0 +1,25 @@
+[{
+	"name": "Siddhant",
+	"belt": "black",
+	"rate": 50,
+	"available": true,
+	"thumb": "content/img/siddhant.png"
+}, {
+	"name": "Aman",
+	"belt": "yellow",
+	"rate": 30,
+	"available": true,
+	"thumb": "content/img/aman.png"
+}, {
+	"name": "Vikas",
+	"belt": "orange",
+	"rate": 10,
+	"available": true,
+	"thumb": "content/img/vikas.png"
+}, {
+	"name": "Chetan",
+	"belt": "red",
+	"rate": 1000,
+	"available": true,
+	"thumb": "content/img/chetan.png"
+}]

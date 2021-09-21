@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular-config-fbf26": {
+      "hosting": {
+        "angular-config": [
+          "angular-config-fbf26"
+        ]
+      }
+    }
+  }
+}

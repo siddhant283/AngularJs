@@ -1,0 +1,61 @@
+<nb-layout>
+  <nb-layout-header fixed>
+    <a href="#" (click)="toggle()"><i class="nb-menu"></i></a>
+  </nb-layout-header>
+
+  <nb-layout-header subheader>
+    <nb-actions>
+      <nb-action icon="home-outline"></nb-action>
+      <nb-action icon="search-outline"></nb-action>
+      <nb-action icon="edit-outline"></nb-action>
+    </nb-actions>
+  </nb-layout-header>
+
+  <nb-sidebar></nb-sidebar>
+
+  <nb-layout-column class="colored-column-warning">
+    <p>Second</p>
+    <nb-flip-card>
+      <nb-card-front>
+        <nb-card accent="success">
+          <nb-card-header>Nebula</nb-card-header>
+          <nb-card-body>
+            A nebula is an interstellar cloud of dust, hydrogen,
+            helium and other ionized gases.
+            Originally, nebula was a name for
+            any diffuse astronomical object,
+            including galaxies beyond the Milky Way.
+          </nb-card-body>
+          <nb-card-footer>By Wikipedia</nb-card-footer>  
+        </nb-card>
+      </nb-card-front>
+      <nb-card-back>
+        <nb-card>
+          <nb-card-body>
+            A nebula is an interstellar cloud of dust, hydrogen,
+            helium and other ionized gases.
+            Originally, nebula was a name for
+            any diffuse astronomical object,
+            including galaxies beyond the Milky Way.
+          </nb-card-body>
+        </nb-card>
+      </nb-card-back>
+    </nb-flip-card>
+  </nb-layout-column>
+
+  <nb-layout-column class="colored-column-info">Third</nb-layout-column>
+
+  <nb-layout-column left class="colored-column-success">
+    <p>First (but third in template)</p>
+    <nb-card accent="danger"  style="margin: 10px 0px;">
+      <nb-card-header>Nebula</nb-card-header>
+      <nb-card-body>
+        A nebula is an interstellar cloud of dust, hydrogen, helium and other ionized gases.
+        Originally, nebula was a name for any diffuse astronomical object,
+        including galaxies beyond the Milky Way.
+      </nb-card-body>
+      <nb-card-footer>By Wikipedia</nb-card-footer>
+    </nb-card>
+  </nb-layout-column>
+  
+</nb-layout>
